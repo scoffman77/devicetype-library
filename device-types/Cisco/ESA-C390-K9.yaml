@@ -1,0 +1,54 @@
+---
+manufacturer: Cisco
+model: ESA-C390-K9
+slug: cisco-esa-c390-k9
+part_number: ESA-C390-K9
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+comments: '[Cisco Secure Email Advanced Email Protection Data Sheet](https://www.cisco.com/c/en/us/products/collateral/security/email-security-appliance/eos-eol-notice-c51-742450.html)'
+console-ports:
+  - name: usb0
+    type: usb-a
+    description: You can connect a keyboard and mouse, along with a monitor on the VGA port, you can access the console.    
+  - name: usb1
+    type: usb-a
+    description: You can connect a keyboard and mouse, along with a monitor on the VGA port, you can access the console.
+  - name: rpc
+    label: RPC
+    type: rj-45
+    mgmt_only: true
+    description: Speed 100Mbps Full Duplex.
+  - name: Con0
+    label: Console Port
+    type: rj-45
+    description: Directly connects a computer to the appliance.
+  - name: vga
+    type: other
+    label: VGA Port
+    description: Connect a Monitor for console access.
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 770
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 770
+interfaces:
+  - name: GigabitEthernet0/1
+    type: 1000base-t
+  - name: GigabitEthernet0/2
+    type: 1000base-t
+  - name: GigabitEthernet0/3
+    type: 1000base-t
+  - name: GigabitEthernet0/4
+    type: 1000base-t
+  - name: Data 5
+    type: 1000base-t
+    label: DATA 5
+    mgmt_only: true
+  - name: Mgmt
+    label: MGMT
+    type: 1000base-t
+    mgmt_only: true
+ 
