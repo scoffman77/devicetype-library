@@ -1,0 +1,45 @@
+---
+manufacturer: Cisco
+model: FMC 1000
+slug: cisco-fmc-1000-k9
+part_number: FMC1000-K9
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+comments: '[Cisco Firepower Management Center 1000 Data Sheet](https://www.cisco.com/c/en/us/products/collateral/security/firesight-management-center/datasheet-c78-743216.html)'
+console-ports:
+  - name: usb0
+    type: usb-a
+    description: You can connect a keyboard and mouse, along with a monitor on the VGA port, you can access the console.    
+  - name: usb1
+    type: usb-a
+    description: You can connect a keyboard and mouse, along with a monitor on the VGA port, you can access the console.
+  - name: CIMC
+    label: M
+    type: rj-45
+    mgmt_only: true
+    description: This interface is not supported.
+  - name: Con0
+    label: Serial Console
+    type: rj-45
+  - name: vga
+    type: other
+    label: VGA Port
+    description: Connect a Monitor for console access.
+power-ports:
+  - name: PSU0
+    type: iec-60320-c14
+    maximum_draw: 770
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 770
+interfaces:
+  - name: GigabitEthernet0
+    label: 1
+    type: 1000base-t
+    description: eth0 management interface labeled 1 on device.
+  - name: GigabitEthernet1
+    label: 2
+    type: 1000base-t
+    description: eth1 management interface labeled 2 on device.
+ 
