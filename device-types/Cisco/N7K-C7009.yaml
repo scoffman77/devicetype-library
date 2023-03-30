@@ -1,0 +1,56 @@
+---
+manufacturer: Cisco
+model: N7K-C7009
+slug: cisco-n7k-c7009
+part_number: N7K-C7009
+u_height: 14
+weight:
+  - value: 100
+    unit: lb
+is_full_depth: true
+airflow: right-to-left
+subdevice_role: parent
+comments: '[Cisco Nexus 7000 Series Switches Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-7000-series-switches/Data_Sheet_C78-437762.html)'
+module-bays:
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'
+  - name: Slot 7
+    position: '7'
+  - name: Slot 8
+    position: '8'
+  - name: Slot 9
+    position: '9'
+  - name: Slot 10
+    position: '10'
+    description: Fabric card module
+  - name: Slot 11
+    position: '11'
+    description: Fabric card module
+  - name: Slot 12
+    position: '12'
+    description: Fabric card module
+  - name: Slot 13
+    position: '13'
+    description: Fabric card module
+  - name: Slot 14
+    position: '14'
+    description: Fabric card module
+  - name: Slot 33
+    position: '33'
+    description: Nexus7000 C7009 (9 Slot) Chassis Power Supply
+  - name: Slot 34
+    position: '34'
+    description: Nexus7000 C7009 (9 Slot) Chassis Power Supply
+  - name: Slot 35
+    position: '35'
+    description: Nexus7000 C7009 (9 Slot) Chassis Fan Module
